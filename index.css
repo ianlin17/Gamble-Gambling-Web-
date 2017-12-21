@@ -1,0 +1,1081 @@
+/*  General setting start */
+.clear{
+  clear:both;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  width: 100%;
+}
+
+.allwrap{
+  min-height: calc(100vh - 54px);
+}
+
+
+/*  General setting end */
+
+
+
+
+/* Header Start */
+
+.header_content{
+  height:74px;
+  width:960px;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.register{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.enter-btn
+{
+  //background: -moz-linear-gradient(top, #967415 0%, #ffcb0c 100%); /* FF3.6-15 */
+  //background: -webkit-linear-gradient(top, #967415 0%,#ffcb0c 100%); /* Chrome10-25,Safari5.1-6 */
+  //background: linear-gradient(to bottom, #967415 0%,#ffcb0c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #ff0000;
+  border: 0px;
+  border-radius: 4px;
+  color: #fff;
+  width: 52px;
+  height: 27px;
+  padding: 5px 11px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
+.pw_wrap{
+  border:1px solid darkgray;
+  width: 154px;
+  height:29px;
+  padding:1px; 
+  display: inline-block;
+}
+
+#account{
+  width: 142px;
+  height:27px;
+  padding: 1px;
+}
+
+#login_password{
+  border: 0;
+  width: 100px;
+  height: 27px;
+  background: transparent;
+}
+.pass-btn {
+  background: gray;
+  border: 0px;
+  border-radius: 4px;
+  color: #fff;
+  width: 38px;
+  height: 21px;
+  padding: 1px;
+  cursor: pointer;
+  margin-top:4px;
+  float: right;
+  margin-right: 2px;
+}
+
+.id-btn {
+  background: #ff0000;
+  border: 0px;
+  width: 52px;
+  height: 27px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.pass-btn:hover {
+  background: #ff0000;
+}
+
+.id-btn:hover {
+  background: #ff0000;
+}
+
+.logon{
+  display: inline-block;
+  font-size: 18px;
+  height: 74px;
+  margin-top: 24px;
+}
+.logon p{
+  display: inline-block;
+}
+
+.member{
+  margin-left: 20px;
+}
+
+.logoutbtn{
+  display: inline;
+}
+.logon1{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+.logon1:hover .on{
+  display: inline-block;
+}
+
+.logon1:hover .off{
+  display: none;
+}
+
+
+
+/* Header End */
+
+
+
+
+/* Menu Start */ 
+.menu{
+  height:48px;
+  background: red;
+}
+
+.menubtns{
+  width:960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.menubtns div{
+	width: 137px;
+	height: 48px;
+	display: inline-block;
+}
+.mainbtn{
+	background: url(images/menu/mainbtn.png);
+}
+
+.egamebtnact{
+	background: url(images/menu/egamebtnact.png);
+}
+
+.livebtn{
+	background: url(images/menu/livebtn.png);
+}
+
+.lotterybtn{
+	background: url(images/menu/lotterybtn.png);
+}
+
+.sportsbtn{
+	background: url(images/menu/sportsbtn.png);
+}
+
+.sharkbtn{
+	background: url(images/menu/sharkbtn.png);
+}
+
+.promobtn{
+	background: url(images/menu/promobtn.png);
+}
+/*  */
+
+.mainbtn:hover{
+	background: url(images/menu/mainbtnact.png);
+}
+
+.egamebtnact:hover{
+	background: url(images/menu/egamebtnact.png);
+}
+
+.livebtn:hover{
+	background: url(images/menu/livebtnact.png);
+}
+
+.lotterybtn:hover{
+	background: url(images/menu/lotterybtnact.png);
+}
+
+.sportsbtn:hover{
+	background: url(images/menu/sportsbtnact.png);
+}
+
+.sharkbtn:hover{
+	background: url(images/menu/sharkbtnact.png);
+}
+
+.promobtn:hover{
+	background: url(images/menu/promobtnact.png);
+}
+/* Menu End */
+
+
+
+
+/* Main BG Start */
+.carousel{
+  height:470px;
+  width: 100%;
+  background: #ff6666;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+}
+.mainbg{
+  height: 470px;
+  width: 100%;
+  background: url(images/mainbg.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slide1{
+  height: 100%;
+  width: 100%;
+  background: url(images/mainbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel img{
+  display: inline;
+}
+
+.lady{
+  position: absolute;
+  margin-left: 45%;
+  transition-duration:2s;
+  z-index: 10;
+}
+
+.card1{
+  position: absolute;
+  margin-top: 15%;
+  animation: card1m 3s;
+  margin-left: 10%;
+  z-index: 2;
+  
+}
+
+@keyframes card1m {
+0% {left: -200px; top: 200px; visibility: hidden;}
+100% {left: 0; top: 0; visibility: visible;}
+}
+
+@keyframes card2 {
+0% {left: 200px; top: 200px; visibility: hidden;}
+100% {left: 0; top: 0; visibility: visible;}
+}
+
+.card2{
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 15%;
+  animation: card2 3s;
+
+  
+}
+
+.card3{
+  position: absolute;
+  float: right;
+  margin-top: 5%;
+  margin-left: 65%;
+  animation: card3 3s;
+
+  
+}
+
+@keyframes card3 {
+0% {left: -600px; top: 600px; visibility: hidden;}
+100% {left: 0; top: 0; visibility: visible;}
+}
+
+
+.card4{
+  position: absolute;
+  float: right;
+  margin-left: 70%;
+  margin-top: 15%;
+  animation: card4 2s;
+
+  
+}
+
+@keyframes card4 {
+0% {left: -200px; top: 160px; opacity: 0;}
+100% {left: 0; top: 0; opacity: 1;}
+}
+
+.joinbtn{
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 31%;
+  animation-delay: 1s;
+}
+
+.maintext{
+  animation-delay: 1.5s;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 25%;
+  z-index: 11;
+}
+
+.dies{
+  position: absolute;
+  margin-left: 30%;
+  animation: dies 3s;
+   animation-timing-function:linear, linear;
+}
+
+@keyframes dies {
+0% {left: 400px; top: 350px;}
+25% {left:250px; top:320px;}
+50%{left:250px; top:100px;}
+75%{left:90px; top:-20px;}
+100% {left: 0; top: 0; }
+}
+
+/* Main BG End */
+
+
+
+
+/* aside start */
+
+.aside{
+  display: inline;
+  right: 40px;
+  top: 45%;
+  position: fixed;
+}
+
+.aside img{
+  margin: 5px 0;
+}
+/* aside end */
+
+
+
+
+/* Marquee Start */
+
+.text{
+  height:42px;
+  width: 100%;
+  background: black;
+  margin-bottom: 5px;
+}
+
+.moveicon{
+  display: inline;
+}
+
+.text_content{
+  width: 960px;
+  height: 40px;
+  background-image: url(images/moveicon.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.marqueetext{
+  height: 40px;
+  width: 900px;
+  margin: 0 auto;
+  
+}
+.movetext{
+  color:white;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Marquee End */
+
+
+
+/* 5 category start */
+
+.firstroll{
+ width: 100%;
+ height:300px;
+ background: url(images/m_bg.jpg);
+ background-size: cover;
+ background-position: center; 
+ text-align: center;
+ margin:0 auto;
+ margin-bottom: 10px;
+}
+.secondroll{
+  text-align: center;
+}
+.info{
+  text-align: center;
+}
+
+.on{
+  display: none;
+  z-index: 2;
+  margin:0;
+  padding: 0;
+}
+
+.off{
+  z-index: 1;
+  margin:0;
+  padding: 0;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5{
+  display: inline-block;
+  cursor: pointer;
+  margin-right: -5px;
+}
+
+.banner4,
+.banner5{
+    width: 480px;
+}
+.banner1:hover .off,
+.banner2:hover .off,
+.banner3:hover .off,
+.banner4:hover .off,
+.banner5:hover .off{
+ display: none;
+}
+
+.banner1:hover .on,
+.banner2:hover .on,
+.banner3:hover .on,
+.banner4:hover .on,
+.banner5:hover .on{
+ display: inline-block;
+}
+/* 5 category end */
+
+
+
+/* Footer Start */
+
+footer{
+  width: 100%;
+  height: 54px;
+  bottom: 0;
+}
+
+.footer{
+  width:960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+.footer_btns{
+  display: inline-block;
+}
+
+.footer_btns div{
+	width:75px;
+	height: 55px;
+	display: inline-block;
+}
+
+.footer_about{
+	background: url(images/footer/footer_about.png);
+}
+
+.footer_policy{
+	background: url(images/footer/footer_policy.png);
+}
+
+.footer_respons{
+	background: url(images/footer/footer_respons.png);
+}
+
+.footer_questions{
+	background: url(images/footer/footer_questions.png);
+}
+
+.footer_rules{
+	background: url(images/footer/footer_rules.png);
+}
+
+.footer_business{
+	background: url(images/footer/footer_business.png);
+}
+
+.footer_contact{
+	background: url(images/footer/footer_contact.png);
+}
+
+/* Footer End */
+
+
+
+/* resetPW Start  */ 
+.resetTable{
+  margin: 30px auto;
+  width:960px;
+  height:360px;
+  border:1px solid darkgray;
+}
+
+.resetWrap{
+  margin: 0 auto;
+}
+
+.resetTitle{
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  font-size:32px;
+  border-bottom: 1px solid darkgray;
+}
+
+.resetWrap img{
+  display: block;
+  margin-bottom: 10px;
+}
+.resetInput1{
+  padding-top: 20px;
+}
+
+.inputArea{
+  width: 928px;
+  height: 230px;
+  margin: 0 auto;
+  background: #fafafa;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.inputArea div{
+  font-size: 20px;
+  margin: 10px auto;
+  display: block;
+}
+.inputArea div input{
+  height: 34px;
+}
+
+.submitBtn{
+  display: inline-block;
+  margin-right: 47.5%;
+  margin-top: 10px;
+}
+/* resetPW End  */
+
+
+
+/* Register Start  */
+.registerTable{
+  width:960px;
+  height:730px;
+  border:1px solid darkgray;
+  margin: 30px auto;
+}
+
+.registertitle{
+  display: block;
+  margin: 0 auto;
+}
+
+.acctinfo{
+  width: 928px;
+  height: 180px;
+  background: #fafafa;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.regiacct{
+  margin-right: 52px;
+}
+
+.acctinfo div{
+  font-size: 17px;
+  margin-top: 10px ;
+}
+.acctinfo input{
+  height: 34px;
+}
+
+.regiconfirmPW{
+  margin-left: -12px;
+}
+
+.personinfo{
+  width: 928px;
+  height:327px;
+  background: #fafafa;
+  margin:0px auto;
+  text-align: center;
+}
+
+
+.personinfo div{
+  font-size: 17px;
+  margin-top: 10px ;
+}
+.personinfo input{
+  height: 34px;
+}
+.verify div,
+.verify button,
+.verify p{
+  display: inline-block;
+}
+
+.verify button{
+  background: transparent;
+  width: 56px;
+  height: 34px;
+  border:1px solid darkgray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.regi{
+  display: inline-block;
+}
+.regi:hover .on{
+  display: inline-block;
+}
+.regi:hover .off{
+  display: none;
+}
+.checkage input{
+  vertical-align: middle;
+  width: 20px;
+}
+
+.personinfo1{
+  margin-left: -90px;
+}
+.personinfo2{
+  margin-right: 244px;
+}
+.personinfo3{
+  margin-right: 82px;
+}
+.personinfo4{
+  margin-right: 135px;
+}
+.checkage{
+  margin-right: 136px;
+}
+.regi{
+  margin-right: 414px;
+}
+
+/* Register End  */
+
+/* Fishing Start  */
+
+.fishingbg{
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background: url(images/FishingBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fishingbtn{
+  margin-top: 30%;
+  cursor: pointer;
+}
+
+/* Fishing End  */
+
+
+/* eGame start */
+
+
+.toggle{
+  position: absolute;
+  display: none;
+}
+
+.active{
+  display: inline;
+}
+
+.egamebg{
+  width: 100%;
+  height: 200px;
+  background: url(images/egame/playtechbg.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.ebg{
+  background:#333333;
+  width: 100%;
+  height: 200px;
+}
+
+
+.brands{
+  height: 120px;
+  width: 100%;
+  border-top:1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.brands img{
+  display: inline-block;
+  cursor: pointer;
+  margin-right: -5px;
+}
+
+.egamewrap{
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.gametypes{
+  width: 215px;
+   margin:0 auto;
+   display: inline-block;
+}
+
+.sidelist:hover .off{
+  display: none;
+}
+
+.sidelist:hover .on{
+  display: inline-block;
+}
+
+ .sidelist{
+  cursor: pointer;
+
+ }
+
+ .egamewrap .gametypes{
+  cursor: unset;
+ }
+
+ .searchtool{
+  width: 732px;
+  height: 50px;
+  border: 1px solid darkgray;
+  display: inline-block;
+  float: right;
+ }
+
+ .sides{
+  display: inline-block;
+  margin-right: 13px;
+  margin-top: -50px;
+  height: 100%;
+ }
+
+
+
+ .searchbar{
+  width: 209px;
+  height: 29px;
+  border: 1px solid darkgray;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+ }
+
+ .searchbar input{
+  border: 0;
+  height: 25px;
+  margin-top: 1px;
+  margin-left: 10px;
+ }
+ .searchicon{
+  display: inline;
+  vertical-align: middle;
+ }
+
+ .gamecontent{
+  width: 732px;
+  height: auto;
+  border: 1px solid darkgray;
+  display: inline-block;
+  float: right;
+  margin-top: -17.5%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .game{
+  width: 126px;
+  height: 160px;
+  display: inline-block;
+  margin: 10px 10px;
+  cursor: pointer;
+
+ }
+
+ .game p{
+  text-align: center;
+  margin-top:5px;
+  font-size: 14px;
+ }
+
+ /* eGame End */
+
+
+
+ /* media_center start */
+
+
+.mediabg{
+  background: #001835;
+  height: 200px;
+  width: 100%;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.mediainsidebg{
+  height: 200px;
+  width: 100%;
+  background: url(images/media_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 2;
+}
+
+.mediasides{
+  display: inline-block;
+  margin-right: 13px;
+  height: 100%;
+}
+
+.side_title{
+  width: 215px;
+   margin:0 auto;
+   display: inline-block;
+}
+
+.mediacontent{
+  width: 732px;
+  min-height: 600px;
+  height: auto;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  float: right;
+  margin-bottom: 50px;
+  position: relative;
+
+ }
+ 
+
+ .titleyear{
+  width: 700px;
+  height: 58px;
+  margin: 0 auto;
+  border-bottom: 1px solid darkgray;
+  margin-left: 16px;
+ }
+ .titleyear p{
+  font-size: 30px;
+  margin-top: 10px;
+  display: inline-block;
+ }
+
+ .titlemedia{
+    background: url(images/title_media.jpg);
+    margin: 10px auto;
+    width: 700px;
+    height: 30px;
+    margin-left: 16px;
+ }
+
+ .medialist{
+  height: 40px;
+  width: 700px;
+  margin: 0 auto;
+  border-top: 1px dotted darkgray;
+  border-bottom: 1px dotted darkgray;
+ }
+ .medialist_date{
+  font-size: 20px;
+  width: 110px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 32px;
+  text-align: center;
+ }
+ .medialist_title{
+  font-size: 20px;
+  display: inline-block;
+ }
+ /* media_center End */
+
+ /* site map start*/
+ .sitemap_title{
+  width: 700px;
+  height: 58px;
+  margin: 0 auto;
+  border-bottom: 1px solid darkgray;
+  margin-left: 16px;
+ }
+
+
+.sitemap_title p{
+  font-size: 34px;
+  margin-top: 4px;
+  display: inline-block;
+ }
+
+ .sitemap_content{
+  width: 732px;
+  min-height: 600px;
+  height: auto;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  float: right;
+  margin-bottom: 50px;
+  margin-top: 13px;
+ }
+
+ .sides1{
+  display: inline-block;
+  margin-right: 13px;
+  height: 100%;
+  margin-top: 20px;
+ }
+
+
+ /* Live Dealer Start */
+.dealerwrap{
+	width: 100%;
+	height: 800px;
+	background: black;
+}
+
+ .livedealer{
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background: url(images/livedealer/dealerbg.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  perspective: 2000px;
+   margin: 0 auto;
+   
+}
+
+.enterbtn{
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.livebtncombo{
+	padding-top: 6%;
+}
+.liveright{
+	margin-left: 30px;
+	cursor:pointer;
+}
+.liveleft{
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.carousel1{
+	height: 50%;
+  width: 570px;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  text-align: center;
+  margin: auto; 
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(550px);
+}
+.b {
+  transform: rotateY(72deg) translateZ(550px);
+}
+.c {
+  transform: rotateY(144deg) translateZ(550px);
+}
+.d {
+  transform: rotateY(216deg) translateZ(550px);
+}
+.e {
+  transform: rotateY(288deg) translateZ(550px);
+} 
+
+
+.item {
+  display: block;
+  position: absolute;
+}
+
+/*  */
+/*  */
+.sportswrap{
+	width: 100%;
+	height: 800px;
+	background: black;
+}
+
+ .sports{
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background: url(images/sports/sportbg.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  perspective: 2000px;
+   margin: 0 auto;
+   
+}
+.f {
+  transform: rotateY(360deg) translateZ(650px);
+}
+.g {
+  transform: rotateY(240deg) translateZ(650px);
+}
+.h {
+  transform: rotateY(120deg) translateZ(650px);
+}
